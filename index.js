@@ -18,7 +18,7 @@ const facts = [
 "He hated the sound of his own voice"
 ]
 
-function johnLennonFacts(facts) {
+function johnLennonFacts() {
   var output = []
   for(var i = 0;i<facts.length;i++) {
       output.push(facts[i] + "!!!")
